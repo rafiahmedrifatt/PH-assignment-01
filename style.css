@@ -1,0 +1,82 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  background-color: gainsboro;
+  width: 1190px;
+  border-radius: 10px;
+  height: 600px;
+  margin-top: 30px;
+}
+
+.vision-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1190px;
+  height: auto;
+}
+
+.card {
+  background-color: yellowgreen;
+  margin: auto 20px;
+}
+
+.vision-detail {
+  background-color: azure;
+  width: 1190px;
+  border: 1px solid rgb(183, 181, 181);
+  border-radius: 10px;
+  margin-top: 30px;
+  padding: 10px 15px 10px 15px;
+}
+
+.opinion-table table {
+  width: 1190px;
+}
+.opinion-table td {
+  border: 1px solid black;
+}
+
+.news-box {
+  display: flex;
+  align-items: center;
+  width: 1190px;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: azure;
+  /* margin: 10px 0; */
+  padding: 10px 10px;
+}
+
+.donation {
+  width: 1190px;
+  text-align: center;
+}
+
+.donation div {
+  display: flex;
+}
+
+.donation .text:hover {
+  background-color: azure;
+}
+
+.newsletter {
+  width: 1190px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
