@@ -3,20 +3,47 @@
   padding: 0;
 }
 
+p {
+  color: rgba(14, 14, 14, 0.5);
+  font-family: Fira Sans;
+  font-size: 24px;
+  font-weight: 200;
+}
+
+.btn-primary {
+  color: white;
+  border-radius: 8px;
+  background-color: rgb(0, 106, 80);
+}
+
 .navBar {
   display: flex;
   justify-content: space-between;
   margin-top: 15px;
 }
 
+.btn-exp {
+  padding: 10px;
+}
+.btn button {
+  color: black;
+  padding: 10px;
+  border: 2px solid #c6e4d6;
+  border-radius: 4px;
+}
+
 .banner {
   display: flex;
   align-items: center;
-  background-color: gainsboro;
+  background-color: #c6e4d6;
   width: 1190px;
   border-radius: 10px;
   height: 600px;
   margin-top: 30px;
+}
+
+.bannerText {
+  margin-left: 40px;
 }
 
 .vision-box {
@@ -26,10 +53,64 @@
   width: 1190px;
   height: auto;
 }
+.vision-title {
+  width: 1190px;
+  margin: 50px auto;
+}
 
-.card {
-  background-color: yellowgreen;
+.card1,
+.card2,
+.card3 {
+  box-sizing: border-box;
+  border-radius: 16px;
+  width: 500px;
+  height: 325px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card1 {
+  background: rgba(84, 144, 245, 0.2);
   margin: auto 20px;
+}
+.card1 button {
+  margin-top: 10px;
+  padding: 10px;
+  color: white;
+  background-color: rgb(84, 144, 245);
+  border-radius: 4px;
+}
+
+.card2 {
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: rgb(198, 228, 214);
+  margin: auto 20px;
+}
+
+.card2 button {
+  margin-top: 10px;
+  padding: 10px;
+  color: white;
+  background-color: rgb(9, 161, 92);
+  border-radius: 4px;
+}
+
+.card3 {
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: rgb(247, 235, 207);
+  margin: auto 20px;
+}
+
+.card3 button {
+  margin-top: 10px;
+  padding: 10px;
+  color: white;
+  background-color: rgb(255, 194, 57);
+  border-radius: 4px;
 }
 
 .vision-detail {
@@ -41,20 +122,35 @@
   padding: 10px 15px 10px 15px;
 }
 
+.opinion {
+  height: 400px;
+  text-align: center;
+  margin-top: 50px;
+}
+
 .opinion-table table {
   width: 1190px;
+  border-collapse: collapse;
+  height: 300px;
 }
 .opinion-table td {
   border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.news {
+  margin: 10px 20%;
+  text-align: justify;
 }
 
 .news-box {
   display: flex;
   align-items: center;
+  gap: 40px;
   width: 1190px;
   margin-top: 20px;
   border-radius: 10px;
-  background-color: azure;
+  /* background-color: azure; */
   /* margin: 10px 0; */
   padding: 10px 10px;
 }
@@ -62,21 +158,72 @@
 .donation {
   width: 1190px;
   text-align: center;
+  margin-top: 50px;
+  height: 400px;
 }
 
 .donation div {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+}
+
+.donation .card {
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 25px 40px;
 }
 
 .donation .text:hover {
-  background-color: azure;
+  color: white;
+  background-color: rgb(0, 106, 80);
 }
 
 .newsletter {
   width: 1190px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #c6e4d6;
+}
+
+.newsletter h1 {
+  margin-top: 200px;
+}
+
+.newsletter .news-input .input1 {
+  height: 50px;
+  width: 600px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.newsletter .news-input .input2 {
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+}
+
+.input3 {
+  width: 100%;
+  border-radius: 10px;
+  height: 50px;
+}
+
+.input4 {
+  height: 70px;
+  width: 140px;
+  margin-top: 20px;
+}
+footer {
   text-align: center;
 }
 
-footer {
-  text-align: center;
+footer h1 {
+  margin: 30px 0px;
+}
+
+footer div {
+  margin-top: 20px;
 }
